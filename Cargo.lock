@@ -359,7 +359,7 @@ name = "bot_list_updater"
 version = "0.1.0"
 dependencies = [
  "async-trait",
- "env_logger 0.9.3",
+ "env_logger",
  "envy",
  "log",
  "reqwest 0.11.27",
@@ -886,19 +886,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 1.0.109",
-]
-
-[[package]]
-name = "env_logger"
-version = "0.9.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a12e6657c4c97ebab115a42dcee77225f7f482cdd841cf7088c657a42e9e00e7"
-dependencies = [
- "atty",
- "humantime",
- "log",
- "regex",
- "termcolor",
 ]
 
 [[package]]
@@ -1648,7 +1635,7 @@ dependencies = [
  "axum 0.5.17",
  "clap",
  "dashmap",
- "env_logger 0.9.3",
+ "env_logger",
  "envy",
  "global-resolver",
  "hmac",
@@ -3072,7 +3059,7 @@ version = "0.1.0"
 dependencies = [
  "axum 0.5.17",
  "base64 0.13.1",
- "env_logger 0.9.3",
+ "env_logger",
  "envy",
  "global-resolver",
  "hyper 0.14.29",
@@ -3436,7 +3423,7 @@ dependencies = [
  "axum 0.6.20",
  "cache",
  "deadpool-postgres",
- "env_logger 0.10.2",
+ "env_logger",
  "envy",
  "hyper 0.14.29",
  "log",
@@ -3836,7 +3823,7 @@ dependencies = [
 name = "stats-channel-updater"
 version = "0.1.0"
 dependencies = [
- "env_logger 0.9.3",
+ "env_logger",
  "envy",
  "log",
  "reqwest 0.11.27",
@@ -4572,7 +4559,7 @@ dependencies = [
  "axum 0.5.17",
  "bb8",
  "bb8-postgres",
- "env_logger 0.9.3",
+ "env_logger",
  "envy",
  "hyper 0.14.29",
  "log",

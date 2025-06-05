@@ -20,5 +20,5 @@ tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
 sentry = "0.31"
 sentry-tracing = "0.31"
 envy = "0.4"
-deadpool-postgres = "0.10"
+deadpool-postgres = "0.14"
 url = "2"

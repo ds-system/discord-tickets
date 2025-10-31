@@ -16,7 +16,7 @@ sha2 = "0.10"
 url = "2"
 hyper = { version = "0.14", features = ["client", "http1", "http2", "stream"] }
 hyper-rustls = { version = "0.23", features = ["http2", "webpki-roots"] }
-dashmap = "5"
+dashmap = "6"
 uuid = { version = "1.1", features = ["v4"] }
 serde = { version = "1.0", features = ["derive"] }
 envy = "0.4"
